@@ -1,0 +1,86 @@
+/* Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.logoDot {
+    color: rgb(77, 77, 241);
+}
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 14px;
+}
+
+/* Navbar */
+.form-control {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+    .form-control {
+        width: 350px;
+}
+}
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+}
+}
+/* /End of Navbar */
+
+
+/* Single Product */
+.rowProduct {
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+/* /End of Single Product */
+
+/* Name Line */
+.nameLine {
+    border-bottom: 2px solid rgb(220, 219, 219);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+/* /End of Name Line */
+
+/* Button Product */
+.btn-custom {
+    font-size: 14px;
+    padding: 10px;
+}
+/* /End of Button Product */
+
+/* Nav Link */
+.nav-link {
+    color: #2d2d2d;
+}
+/* /End of Nav Link */
+
+/* Profil Review */
+.reviewImage {
+    width: 55px;
+}
+.reviewName {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.reviewDescription {
+    font-size: 14px;
+}
+/* /End of Profil Review */
+
+/* Scroll Bar */
+.description {
+    height: 300px;
+    overflow-x: hidden;
+}
+.review {
+    height: 300px;
+    overflow-x: hidden;
+}
+/* /End of Scroll Bar */
